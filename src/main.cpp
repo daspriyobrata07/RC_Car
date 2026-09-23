@@ -68,11 +68,6 @@ void setup()
 {
     Serial.begin(9600);
 
-    while (!Serial)
-    {
-        ;
-    }
-
     // Motor control pins
     pinMode(IN1, OUTPUT);
     pinMode(IN2, OUTPUT);
